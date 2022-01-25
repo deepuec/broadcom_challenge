@@ -44,3 +44,4 @@ Million test users are loaded in `scripts\user_data.csv` file. To load these dat
 
 
 ## UI Home Page
+![image](https://user-images.githubusercontent.com/19710438/150905186-121ad5a0-7688-4d30-9885-f8444905b694.png)
