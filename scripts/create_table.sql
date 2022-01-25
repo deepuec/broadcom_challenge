@@ -10,7 +10,3 @@ CREATE TABLE USERS (
   address_2 varchar(150),
   PRIMARY KEY (id)
 );
-
-drop index if exists idx_users_name_age;
-
-CREATE INDEX idx_users_name_age ON users (last_name desc, age desc);
