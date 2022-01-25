@@ -5,7 +5,10 @@ This repo contains docker compose file to bring up ui and backend service.
 Folllow commands to run the application
 
 ## Prerequisites
-docker runtime
+
+[docker runtime](https://docs.docker.com/get-docker/)
+
+[docker-compose cli](https://docs.docker.com/compose/install/)
 
 ## Setting up the application
 - Clone repository git clone https://github.com/deepuec/broadcom_challenge.git
@@ -36,5 +39,8 @@ Million test users are loaded in `scripts\user_data.csv` file. To load these dat
 
 `CREATE INDEX idx_users_name_age ON users (last_name desc, age desc);` 
 
-`CREATE INDEX idx_users_name_age ON users (age desc);`
+`CREATE INDEX idx_users_age ON users (age desc);`
 - Give some time for DB to warm up and test the apis
+
+
+## UI Home Page
